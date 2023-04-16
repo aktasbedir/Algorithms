@@ -1,0 +1,17 @@
+Please submit your source code and your report.
+
+Also before submission, remember to check your code using Calico and ensure that you are able to pass the test cases. The grading of codes will be based on Calico.
+
+In the report, you should write your answers clearly and respectively. Please use the number of the question as heading for each answer.
+
+NOTE: For those who are using Apple silicon chips: If you will not be able to work on the given docker file you can modify the  .devcontainer/DockerFile and update the base image as ubuntu18.04 instead of ubuntu20.04 due to the incompitability issues.
+
+UPDATE:
+
+Part 1: Expected algorithm is specified more clearly. There are other DnC based algorithms (e.g. Quick Hull), but for this part, you are expected to use the Bitangent merge based DnC algorithm which is also shown in recitation demo. 
+
+Part 2: Further explained edge cases where plow is equal to 0. It is stated in the story that logistic capabilities of a road is equal to its plow. Thus, you can treat the edges with 0 plow as they do not exist.
+
+UPDATE2:
+
+Part2: Casefiles are updated, please update them on your local. There has been a collision on the starting nodes of bakeries in case12. There were two bakeries with same seed(82). Thus, second one is updated(as 83). This change should not effect your workflow. If you have already solved this issue by edding edge case, your results should not change.
